@@ -2,10 +2,11 @@
 const cors = require("cors")
 
 require("dotenv").config()
-const port = process.env.port
+const port = process.env.PORT
 const fruits = require('./fruits.json')
 const express = require("express")
 const app = express()
+
 app.use(cors());
 //const logger = require("./logger")
 //app.use(logger)
