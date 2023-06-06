@@ -6,7 +6,7 @@ const port = process.env.port
 const fruits = require('./fruits.json')
 const express = require("express")
 const app = express()
-
+app.use(cors());
 //const logger = require("./logger")
 //app.use(logger)
 
